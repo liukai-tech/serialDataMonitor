@@ -14,7 +14,7 @@ The **binaries** folder contains the application for various platforms. See the 
 
 ## Installation
 
-Download the zip file for your platform, unzip on a folder of your choice and execute the application. 
+Download the zip file for your platform, unzip on a folder of your choice and execute the application. You have to write the right .ini file that match the data sent by your ECU. Data sent by the ECU is configured in monitor.c
 
 ## Usage/Documentation
 
