@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vm4x6gS/gfDuwjjcUTRxGKzkBtFAQ8zmWjXhxF9ibF2Bl64JRDFKeXy0B77YwRT6qh7EeDPCzKpzJsB1xRtcGw==",
+  "success": true,
+  "projectFilePath": "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/serialDataMonitor.csproj",
+  "expectedPackageFiles": [
+    "/home/olivier/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/olivier/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

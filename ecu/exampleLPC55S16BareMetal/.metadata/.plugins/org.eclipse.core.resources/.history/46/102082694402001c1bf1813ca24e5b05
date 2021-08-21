@@ -1,0 +1,49 @@
+/*
+ * uart.c
+ *
+ *  Created on: 20 août 2021
+ *      Author: olivier
+ */
+#include "fsl_usart.h"
+#include "peripherals.h"
+
+#define RX_BUFFER_SIZE 	100
+
+bool messagePending;				// used in monitoring.c
+char rxCmdLine[RX_BUFFER_SIZE];		// used in monitoring.c
+
+
+static char rxCMDBuffer[RX_BUFFER_SIZE]; // Used only here
+
+void FLEXCOMM0_FLEXCOMM_IRQHANDLER(void)
+{
+    char c;
+
+    // Is char received ?
+    if ((kUSART_RxFifoNotEmptyFlag | kUSART_RxError) & USART_GetStatusFlags(USART0))
+    {
+    	c = USART_ReadByte(USART0);
+		if ( c == '\n') {
+			// EOL received, replace it with 0
+			rxCMDBuffer[rxCMDIndex] = 0;
+			// and copy to cmdLine
+			strcpy( rxCmdLine, rxCMDBuffer);
+			// then reset buffer index
+			rxCMDIndex = 0;
+			// tell main that message arrived
+			messagePending = true;
+		}
+    }
+    SDK_ISR_EXIT_BARRIER;
+}
+
+/*************************************
+ * *************************************
+ * Send the msg at once since size <= 15 bytes = the TX FIFO size :)
+ * *************************************
+ **************************************/
+void sendDataHost( char* message ) {
+
+	for ( uint8_t i=0; i< strlen(message); i++)
+	    USART_WriteByte(USART0, message[i]);
+}

@@ -1,0 +1,7 @@
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/CMSIS/core_cm33.h:2127:22:__NVIC_EnableIRQ	16	static
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_common_arm.h:488:24:EnableIRQ	24	static
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_usart.h:436:20:USART_EnableInterrupts	16	static
+../board/peripherals.c:139:13:FLEXCOMM0_init	8	static
+../board/peripherals.c:204:13:CTIMER0_init	8	static
+../board/peripherals.c:215:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:225:6:BOARD_InitBootPeripherals	8	static

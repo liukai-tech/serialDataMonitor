@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/serialDataMonitor.csproj": {}
+  },
+  "projects": {
+    "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/serialDataMonitor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/serialDataMonitor.csproj",
+        "projectName": "serialDataMonitor",
+        "projectPath": "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/serialDataMonitor.csproj",
+        "packagesPath": "/home/olivier/.nuget/packages/",
+        "outputPath": "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/olivier/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

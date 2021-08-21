@@ -1,0 +1,4 @@
+[gd_resource type="DynamicFontData" format=2]
+
+[resource]
+font_path = "res://addons/jc.godot.plane-editor-theme/Fonts/Sources/DefaultGodotFonts/Hack_Regular.ttf"

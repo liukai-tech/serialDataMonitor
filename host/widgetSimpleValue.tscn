@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/widgetSimpleValue.cs" type="Script" id=1]
+
+[node name="widgetSimpleValue" type="HBoxContainer"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+margin_bottom = 24.0
+
+[node name="Label_Index" type="Label" parent="."]
+margin_left = 4.0
+margin_top = 5.0
+margin_right = 4.0
+margin_bottom = 19.0
+hint_tooltip = "No tips"
+mouse_filter = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit_Value" type="LineEdit" parent="."]
+margin_left = 8.0
+margin_right = 1491.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+align = 2
+
+[node name="Unit" type="Label" parent="."]
+margin_left = 1495.0
+margin_top = 5.0
+margin_right = 1495.0
+margin_bottom = 19.0
+
+[node name="Button_Edit" type="Button" parent="."]
+margin_left = 1499.0
+margin_right = 1535.0
+margin_bottom = 24.0
+size_flags_vertical = 3
+custom_colors/font_color_pressed = Color( 1, 0, 0, 1 )
+text = "Edit"
+
+[node name="Button_Cancel" type="Button" parent="."]
+margin_left = 1539.0
+margin_right = 1559.0
+margin_bottom = 24.0
+disabled = true
+text = "X"
+
+[node name="Button_Plot" type="Button" parent="."]
+margin_left = 1563.0
+margin_right = 1600.0
+margin_bottom = 24.0
+custom_colors/font_color_pressed = Color( 1, 0, 0, 1 )
+toggle_mode = true
+text = "Plot"

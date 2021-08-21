@@ -1,0 +1,26 @@
+10:48:09 **** Incremental Build of configuration Debug for project simpleExampleBareMetal ****
+make -r -j8 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S16JBD100 -DCPU_LPC55S16JBD100_cm33 -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/utilities" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/LPC55S16/drivers" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/component/uart" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/component/lists" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/device" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/CMSIS" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/board" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/inc" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/utilities" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/LPC55S16/drivers" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/device" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/component/uart" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/component/lists" -I"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/CMSIS" -O0 -fno-common -g3 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: simpleExampleBareMetal.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/LPC55S16/mcuxpresso" -Xlinker -Map="simpleExampleBareMetal.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T "simpleExampleBareMetal_Debug.ld" -o "simpleExampleBareMetal.axf"  ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o  ./startup/startup_lpc55s16.o  ./src/main.o ./src/monitoring.o ./src/uart.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_ctimer.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_inputmux.o ./drivers/fsl_reset.o ./drivers/fsl_usart.o  ./device/system_LPC55S16.o  ./component/uart/fsl_adapter_usart.o  ./component/lists/fsl_component_generic_list.o  ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./LPC55S16/drivers/fsl_power.o   -lpower_hardabi
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       22288 B       224 KB      9.72%
+            SRAM:        9336 B        64 KB     14.25%
+         USB_RAM:          0 GB        16 KB      0.00%
+           SRAMX:          0 GB        16 KB      0.00%
+Finished building target: simpleExampleBareMetal.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "simpleExampleBareMetal.axf"; # arm-none-eabi-objcopy -v -O binary "simpleExampleBareMetal.axf" "simpleExampleBareMetal.bin" ; # checksum -p LPC55S16 -d "simpleExampleBareMetal.bin";
+   text	   data	    bss	    dec	    hex	filename
+  21772	    516	   8820	  31108	   7984	simpleExampleBareMetal.axf
+ 
+
+10:48:09 Build Finished. 0 errors, 0 warnings. (took 829ms)
+

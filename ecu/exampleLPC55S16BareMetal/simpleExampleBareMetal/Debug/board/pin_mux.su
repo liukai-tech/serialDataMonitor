@@ -1,0 +1,4 @@
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_clock.h:987:20:CLOCK_EnableClock	24	static
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_iocon.h:182:22:IOCON_PinMuxSet	24	static
+../board/pin_mux.c:30:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:56:6:BOARD_InitPins	16	static

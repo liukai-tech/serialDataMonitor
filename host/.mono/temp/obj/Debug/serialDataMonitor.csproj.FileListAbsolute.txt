@@ -1,0 +1,8 @@
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/bin/Debug/serialDataMonitor.dll
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/bin/Debug/serialDataMonitor.pdb
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.csproj.AssemblyReference.cache
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.AssemblyInfoInputs.cache
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.AssemblyInfo.cs
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.csproj.CoreCompileInputs.cache
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.dll
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/host/.mono/temp/obj/Debug/serialDataMonitor.pdb

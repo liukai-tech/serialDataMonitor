@@ -1,0 +1,15 @@
+../src/monitoring.c:36:6:onUpdateChannelsEnabled	16	static
+../src/monitoring.c:41:6:onUpdateMyInt16	16	static
+../src/monitoring.c:46:6:onUpdateValvesPWMEnable	16	static
+../src/monitoring.c:52:6:onUpdatePWMFrequency	16	static
+../src/monitoring.c:57:6:onUpdateDitherFrequency	16	static
+../src/monitoring.c:62:6:onUpdateDitherAmplitude	16	static
+../src/monitoring.c:112:13:cmdSaveParamToFlash	16	static
+../src/monitoring.c:117:13:cmdSetReportingAllOff	24	static
+../src/monitoring.c:123:13:cmdSetMyUInt8Data	24	static
+../src/monitoring.c:140:13:variablesSetReporting	24	static
+../src/monitoring.c:150:13:getValueFromHex	32	static
+../src/monitoring.c:197:13:variablesSetVariable	24	static
+../src/monitoring.c:221:13:variablesSend	40	static
+../src/monitoring.c:279:13:variablesSendNext	16	static
+../src/monitoring.c:314:6:timer_CB	32	static

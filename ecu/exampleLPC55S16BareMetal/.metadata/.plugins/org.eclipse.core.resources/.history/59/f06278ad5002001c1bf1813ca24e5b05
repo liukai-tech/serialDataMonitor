@@ -1,0 +1,59 @@
+/*
+ * main.c
+ *
+ *  Created on: 20 août 2021
+ *      Author: olivier
+ */
+
+#include <stdbool.h>
+
+#include "peripherals.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+
+#include "fsl_usart.h"
+#include "fsl_power.h"
+
+#include "structures.h"
+
+//#include "monitoring.h"
+
+// Global variables and parameters for all the system
+sGlobVarsPars_t GVP;
+
+
+// Simulation of changing variables
+void setVariables( void ) {
+
+	static uint8_t i = 0;
+	static uint32_t counter = 0;
+
+	if ( (counter % 100) == 0 )
+		GVP.myVariables.myBools.rawByte = i++;
+
+//	if ( counter % 10 )
+
+
+
+	counter++;
+}
+
+/*!
+ * @brief Main function
+ */
+int main(void)
+{
+    /* set BOD VBAT level to 1.65V */
+    POWER_SetBodVbatLevel(kPOWER_BodVbatLevel1650mv, kPOWER_BodHystLevel50mv, false);
+
+    BOARD_InitBootPins();
+    BOARD_InitBootClocks();
+    BOARD_InitBootPeripherals();
+
+	// Enable HW timer
+	CTIMER_StartTimer(CTIMER0_PERIPHERAL);
+
+    while (1) {
+
+    }
+}

@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ChartCommandArea.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Chart.cs" type="Script" id=2]
+
+[node name="drawEngine" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1600.0
+margin_bottom = 776.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 1, 1, 1, 0.25098 )
+
+[node name="Chart" type="Node2D" parent="ColorRect"]
+script = ExtResource( 2 )
+
+[node name="YDiv" type="Label" parent="ColorRect"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -123.911
+margin_top = -61.1143
+margin_right = -92.9111
+margin_bottom = -47.1143
+rect_pivot_offset = Vector2( 15.5, 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="XDiv" type="Label" parent="ColorRect"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -122.815
+margin_top = -37.7888
+margin_right = -53.8149
+margin_bottom = -20.7888
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="controlArea" parent="." instance=ExtResource( 1 )]
+margin_top = 780.0
+margin_right = 1600.0
+margin_bottom = 800.0

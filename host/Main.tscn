@@ -1,0 +1,183 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/MainTop.cs" type="Script" id=1]
+[ext_resource path="res://drawEngine.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Menu.cs" type="Script" id=3]
+[ext_resource path="res://ThirdParty/plane_theme/Themes/Dark/Default/DarkPlane.tres" type="Theme" id=7]
+
+[node name="Main" type="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 7 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Node" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="HBoxContainer" parent="Node"]
+margin_right = 1600.0
+margin_bottom = 22.0
+size_flags_horizontal = 3
+script = ExtResource( 3 )
+
+[node name="MenuButton_File" type="MenuButton" parent="Node/Menu"]
+margin_right = 35.0
+margin_bottom = 22.0
+text = "File"
+
+[node name="MenuButton_OpenPort" type="MenuButton" parent="Node/Menu"]
+margin_left = 39.0
+margin_right = 116.0
+margin_bottom = 22.0
+disabled = true
+text = "Open port"
+
+[node name="MarginContainer" type="MarginContainer" parent="Node"]
+margin_top = 22.0
+margin_right = 1600.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 0, 3 )
+
+[node name="HBox" type="HBoxContainer" parent="Node"]
+margin_top = 25.0
+margin_right = 1600.0
+margin_bottom = 778.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 0
+
+[node name="_" type="MarginContainer" parent="Node/HBox"]
+margin_right = 6.0
+margin_bottom = 753.0
+rect_min_size = Vector2( 6, 0 )
+
+[node name="HSplit" type="HSplitContainer" parent="Node/HBox"]
+margin_left = 6.0
+margin_right = 1594.0
+margin_bottom = 753.0
+rect_min_size = Vector2( 0, 128 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+split_offset = 150
+
+[node name="VSplitContainer" type="VSplitContainer" parent="Node/HBox/HSplit"]
+margin_right = 150.0
+margin_bottom = 753.0
+
+[node name="Panel" type="Panel" parent="Node/HBox/HSplit/VSplitContainer"]
+margin_right = 150.0
+margin_bottom = 753.0
+
+[node name="HSplit" type="HSplitContainer" parent="Node/HBox/HSplit"]
+margin_left = 158.0
+margin_right = 1588.0
+margin_bottom = 753.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+split_offset = -130
+
+[node name="VBox" type="VBoxContainer" parent="Node/HBox/HSplit/HSplit"]
+margin_right = 1142.0
+margin_bottom = 753.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TabContainer" type="TabContainer" parent="Node/HBox/HSplit/HSplit/VBox"]
+margin_right = 1142.0
+margin_bottom = 24.0
+tab_align = 0
+
+[node name="drawEngine" parent="Node/HBox/HSplit/HSplit/VBox" instance=ExtResource( 2 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 28.0
+margin_right = 1142.0
+margin_bottom = 753.0
+
+[node name="Scene" type="ScrollContainer" parent="Node/HBox/HSplit/HSplit"]
+margin_left = 1150.0
+margin_right = 1430.0
+margin_bottom = 753.0
+rect_min_size = Vector2( 150, 0 )
+
+[node name="Panel" type="Panel" parent="Node/HBox/HSplit/HSplit/Scene"]
+margin_right = 280.0
+margin_bottom = 753.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxCMDS" type="VBoxContainer" parent="Node/HBox/HSplit/HSplit/Scene/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="_2" type="MarginContainer" parent="Node/HBox"]
+margin_left = 1594.0
+margin_right = 1600.0
+margin_bottom = 753.0
+rect_min_size = Vector2( 6, 0 )
+
+[node name="Footer" type="HBoxContainer" parent="Node"]
+margin_top = 778.0
+margin_right = 1600.0
+margin_bottom = 800.0
+rect_min_size = Vector2( 0, 20 )
+
+[node name="LabelFooterInfo" type="Label" parent="Node/Footer"]
+margin_right = 122.0
+margin_bottom = 22.0
+text = "Everything is right"
+
+[node name="HSplitContainer" type="HSplitContainer" parent="Node/Footer"]
+margin_left = 126.0
+margin_right = 126.0
+margin_bottom = 22.0
+
+[node name="Label" type="Label" parent="Node/Footer"]
+margin_left = 130.0
+margin_right = 269.0
+margin_bottom = 22.0
+text = "Transmission errors:"
+
+[node name="LabelFooterInfo2" type="Label" parent="Node/Footer"]
+margin_left = 273.0
+margin_right = 289.0
+margin_bottom = 22.0
+text = "0"
+
+[node name="OpenFileDialog" type="FileDialog" parent="."]
+margin_right = 401.0
+margin_bottom = 338.0
+popup_exclusive = true
+window_title = "Ouvrir un fichier"
+resizable = true
+mode = 0
+access = 2
+filters = PoolStringArray( "*.ini" )
+current_dir = "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor"
+current_path = "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SaveFileDialog" type="FileDialog" parent="."]
+margin_right = 401.0
+margin_bottom = 225.0
+popup_exclusive = true
+window_title = "Enregistrer un fichier"
+resizable = true
+access = 2
+current_dir = "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor"
+current_path = "/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/"

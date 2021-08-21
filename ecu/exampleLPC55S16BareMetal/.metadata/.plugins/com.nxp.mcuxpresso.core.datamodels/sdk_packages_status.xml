@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdk-packages>
+<package hash="1605696919102" path="/home/olivier/mcuxpresso/02/SDKPackages/SDK_2.8.2_LPC54616J512.zip" schema="manifest-schema/sdk_manifest_v3.7.xsd"/>
+<package hash="1619857564223" path="/home/olivier/mcuxpresso/02/SDKPackages/SDK_2.9.1_LPC55S69.zip" schema="manifest-schema/sdk_manifest_v3.8.xsd"/>
+<package hash="1607354977749" path="/home/olivier/mcuxpresso/02/SDKPackages/SDK_2.8.6_MIMXRT1064xxxxA.zip" schema="manifest-schema/sdk_manifest_v3.7.xsd"/>
+<package hash="1627206471320" path="/home/olivier/mcuxpresso/02/SDKPackages/SDK_2_10_0_LPCXpresso55S16.zip" schema="manifest-schema/sdk_manifest_v3.8.xsd"/>
+<package hash="1603292127908" path="/home/olivier/mcuxpresso/02/SDKPackages/SDK_2.8.2_LPCXpresso54114-OM13588.zip" schema="manifest-schema/sdk_manifest_v3.7.xsd"/>
+</sdk-packages>

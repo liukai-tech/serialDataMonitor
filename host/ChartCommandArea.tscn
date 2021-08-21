@@ -1,0 +1,94 @@
+[gd_scene format=2]
+
+[node name="controlArea" type="HBoxContainer"]
+margin_top = 4.0
+margin_right = 1359.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="."]
+margin_top = 3.0
+margin_right = 78.0
+margin_bottom = 17.0
+text = "HW sample:"
+
+[node name="hwSampleTime" type="Label" parent="."]
+margin_left = 82.0
+margin_top = 3.0
+margin_right = 82.0
+margin_bottom = 17.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 86.0
+margin_top = 3.0
+margin_right = 209.0
+margin_bottom = 17.0
+text = "Elements sampled:"
+
+[node name="nbElementsSampled" type="Label" parent="."]
+margin_left = 213.0
+margin_top = 3.0
+margin_right = 213.0
+margin_bottom = 17.0
+
+[node name="Label5" type="Label" parent="."]
+margin_left = 217.0
+margin_top = 3.0
+margin_right = 351.0
+margin_bottom = 17.0
+text = "Sample per element:"
+
+[node name="samplePerElement" type="Label" parent="."]
+margin_left = 355.0
+margin_top = 3.0
+margin_right = 355.0
+margin_bottom = 17.0
+
+[node name="Label6" type="Label" parent="."]
+margin_left = 359.0
+margin_top = 3.0
+margin_right = 471.0
+margin_bottom = 17.0
+text = "Points per curve: "
+
+[node name="nbPointsPerCurve" type="OptionButton" parent="."]
+margin_left = 475.0
+margin_right = 536.0
+margin_bottom = 20.0
+text = "1000"
+items = [ "1000", null, false, 0, null, "2000", null, false, 1, null, "5000", null, false, 2, null, "10000", null, false, 3, null, "50000", null, false, 4, null, "100000", null, false, 5, null ]
+selected = 0
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 540.0
+margin_top = 3.0
+margin_right = 649.0
+margin_bottom = 17.0
+text = "Points displayed:"
+
+[node name="pointsDisplayed" type="Label" parent="."]
+margin_left = 653.0
+margin_top = 3.0
+margin_right = 653.0
+margin_bottom = 17.0
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 657.0
+margin_top = 3.0
+margin_right = 795.0
+margin_bottom = 17.0
+text = "Total time displayed: "
+
+[node name="totalTimeDisplayed" type="Label" parent="."]
+margin_left = 799.0
+margin_top = 3.0
+margin_right = 799.0
+margin_bottom = 17.0
+
+[node name="freeze" type="Button" parent="."]
+margin_left = 803.0
+margin_right = 900.0
+margin_bottom = 20.0
+text = "Toggle freeze"

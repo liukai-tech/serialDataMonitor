@@ -1,0 +1,39 @@
+/*
+ * uart.c
+ *
+ *  Created on: 20 août 2021
+ *      Author: olivier
+ */
+#include "fsl_usart.h"
+#include "peripherals.h"
+
+
+void FLEXCOMM0_FLEXCOMM_IRQHANDLER(void)
+{
+    uint8_t data;
+
+    /* If new data arrived. */
+    if ((kUSART_RxFifoNotEmptyFlag | kUSART_RxError) & USART_GetStatusFlags(USART0))
+    {
+        data = USART_ReadByte(USART0);
+        /* If ring buffer is not full, add data to ring buffer. */
+        if (((rxIndex + 1) % DEMO_RING_BUFFER_SIZE) != txIndex)
+        {
+            demoRingBuffer[rxIndex] = data;
+            rxIndex++;
+            rxIndex %= DEMO_RING_BUFFER_SIZE;
+        }
+    }
+    SDK_ISR_EXIT_BARRIER;
+}
+
+/*************************************
+ * *************************************
+ * Send the msg at once since size <= 15 bytes = the TX FIFO size :)
+ * *************************************
+ **************************************/
+void sendDataHost( char* message ) {
+
+	for ( uint8_t i=0; i< strlen(message); i++)
+	    USART_WriteByte(USART0, message[i]);
+}

@@ -1,0 +1,5 @@
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_usart.h:390:24:USART_GetStatusFlags	16	static
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_usart.h:600:20:USART_WriteByte	16	static
+/media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal/simpleExampleBareMetal/drivers/fsl_usart.h:614:23:USART_ReadByte	16	static
+../src/uart.c:17:6:FLEXCOMM0_IRQHandler	16	static
+../src/uart.c:47:6:sendDataHost	32	static

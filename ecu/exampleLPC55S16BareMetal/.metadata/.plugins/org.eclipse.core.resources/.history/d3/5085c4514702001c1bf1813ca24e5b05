@@ -1,0 +1,46 @@
+/*
+ * monitoring.h
+ *
+ *  Created on: 15 mars 2021
+ *      Author: olivier
+ */
+
+#ifndef MONITORING_H_
+#define MONITORING_H_
+
+// Monitoring: one char command and response
+typedef enum {
+// Host command to ECU
+	// For Var field
+	reportValueOn = '?',
+	reportValueOnce = '$',
+	reportValueOff = '!',
+	setValue = '#',
+	// For Cmd field
+	executeCMD = '@',
+	// Other
+	// ...
+// ECU response to host
+	reportValue = ':',
+} eHostMonitoringCmd_t;
+
+typedef enum {
+	eComDataType_Float		= 'f', // 8 chars
+	eComDataType_U32 		= 'W', // 8 chars
+	eComDataType_I32 		= 'w', // 8 chars
+	eComDataType_U16 		= 'I', // 4 chars
+	eComDataType_I16 		= 'i', // 4 chars
+	eComDataType_U8 		= 'B', // 2 chars
+	eComDataType_I8 		= 'b', // 2 chars
+} eDataType_t;
+
+// Parameters for execute command
+// Param = 0 to 255
+typedef enum {
+	saveParamsToFlash = 0,
+	reportAllParams = 1,
+	manualSolenoids = 2,
+	autoSolenoids = 3,
+} eExecuteCMD_t;
+
+#endif /* MONITORING_H_ */

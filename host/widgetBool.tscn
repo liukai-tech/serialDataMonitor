@@ -1,0 +1,72 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icons/blackButton.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/widgetBool.cs" type="Script" id=2]
+
+[node name="widgetBool" type="HBoxContainer"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -10.0
+margin_bottom = 10.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+margin_right = 3.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 3, 0 )
+
+[node name="TextureRect_BitVal" type="TextureRect" parent="."]
+margin_left = 7.0
+margin_right = 27.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+hint_tooltip = "Bit state"
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Label_BitNumber" type="Label" parent="."]
+margin_left = 31.0
+margin_top = 3.0
+margin_right = 31.0
+margin_bottom = 17.0
+align = 2
+
+[node name="Label_BitName" type="Label" parent="."]
+margin_left = 35.0
+margin_right = 1553.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 0, 20 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+text = "Nom ici"
+valign = 3
+
+[node name="Button_SetBit" type="Button" parent="."]
+margin_left = 1557.0
+margin_right = 1576.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 10, 20 )
+hint_tooltip = "Set bit"
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "S"
+
+[node name="Button_ClearBit" type="Button" parent="."]
+margin_left = 1580.0
+margin_right = 1600.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 10, 20 )
+hint_tooltip = "Clear bit"
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "C"
+
+[connection signal="pressed" from="Button_SetBit" to="." method="_on_Button_SetBit_pressed"]
+[connection signal="pressed" from="Button_ClearBit" to="." method="_on_Button_ClearBit_pressed"]

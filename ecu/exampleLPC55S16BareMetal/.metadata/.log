@@ -1,0 +1,1156 @@
+!SESSION 2021-08-19 18:07:14.404 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_BE
+Command-line arguments:  -data /media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:21.741
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:25.613
+!MESSAGE The device 'LPC54628J512' (version='1.0.0') from SDK 'SDK_2.x_LPC54616J512' (version='2.8.2', build='376 2020-08-19') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:26.427
+!MESSAGE The device 'LPC54616J512' (version='1.0.0') from SDK 'SDK_2.x_LPC54616J512' (version='2.8.2', build='376 2020-08-19') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:26.576
+!MESSAGE The device 'LPC55S69' (version='1.0.0') from SDK 'SDK_2.x_LPC55S69' (version='2.9.1', build='466 2021-04-22') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:26.876
+!MESSAGE The device 'MIMXRT1064xxxxA' (version='1.0.0') from SDK 'SDK_2.x_MIMXRT1064xxxxA' (version='2.8.6', build='411 2020-11-23') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:26.994
+!MESSAGE The device 'LPC55S16' (version='1.0.0') from SDK 'SDK_2.x_LPCXpresso55S16' (version='2.10.0', build='494 2021-07-15') will be installed.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2021-08-19 18:07:27.099
+!MESSAGE The device 'LPC54114J256' (version='1.0.0') from SDK 'SDK_2.x_LPCXpresso54114-OM13588' (version='2.8.2', build='376 2020-08-19') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-19 18:08:48.368
+!MESSAGE Indexed 'simpleExampleBareMetal_usart_interrupt' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-19 18:09:35.923
+!MESSAGE Indexed 'simpleExampleBareMetal' (19 sources, 43 headers) in 0,899 sec: 6 663 declarations; 16 073 references; 3 unresolved inclusions; 50 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.328
+!MESSAGE [TOOL] Could not find any matching component for type ctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.337
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.350
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2c
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.364
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.383
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.397
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.411
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.419
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.428
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.436
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.445
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.458
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.466
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.479
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.486
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.494
+!MESSAGE [TOOL] Could not find any matching component for type plu
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.502
+!MESSAGE [TOOL] Could not find any matching component for type lpadc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.520
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.533
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:36.553
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:42.973
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2c_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:42.981
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:42.989
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.746
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.754
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2c_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.767
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2c
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.781
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.788
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.807
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.814
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-19 18:15:56.831
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart
+!SESSION 2021-08-20 17:34:30.813 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_BE
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-21 07:43:45.385
+!MESSAGE Indexed 'simpleExampleBareMetal' (21 sources, 46 headers) in 1,16 sec: 7 007 declarations; 16 608 references; 3 unresolved inclusions; 50 syntax errors; 31 unresolved names (0,13 %)
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2021-08-21 08:17:55.569
+!MESSAGE [TOOL] Could not find any matching component for type ctimer
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:05.662
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 08:52:05.664
+!MESSAGE RedlinkServer telnet session connected on port 3025->42446 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2021-08-21 08:52:09.841
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 -1 2021-08-21 08:52:10.015
+!MESSAGE Unable to connect wire for probe index 1.
+Error: Wire Ack Fault - target connected?
+
+
+!STACK 0
+java.lang.Exception: Unable to connect wire for probe index 1.
+Error: Wire Ack Fault - target connected?
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1159)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:207)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 4 2021-08-21 08:52:10.016
+!MESSAGE Unable to connect wire for probe index 1.
+Error: Wire Ack Fault - target connected?
+
+
+!STACK 0
+java.lang.Exception: Unable to connect wire for probe index 1.
+Error: Wire Ack Fault - target connected?
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1159)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:207)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE Error: Wire Ack Fault - target connected?
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.wireConnect(RedlinkServerClient.java:1159)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:207)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:113)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-08-21 08:52:10.017
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 08:52:12.513
+!MESSAGE Telnet session connected on port 3330->52884 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.320
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.379
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.414
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.424
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.432
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:52:14.440
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:42.648
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 08:56:43.649
+!MESSAGE RedlinkServer telnet session connected on port 3025->43120 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 08:56:46.339
+!MESSAGE Telnet session connected on port 3330->53544 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.862
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.887
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.917
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.925
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.933
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 08:56:46.942
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:28.953
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:03:29.954
+!MESSAGE RedlinkServer telnet session connected on port 3025->44160 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:03:32.637
+!MESSAGE Telnet session connected on port 3330->54584 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.179
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.205
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.236
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.244
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.259
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:03:33.271
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-08-21 09:08:22.483
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@7dcb43ad): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-08-21 09:08:22.483
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:24.695
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:09:25.696
+!MESSAGE RedlinkServer telnet session connected on port 3025->45018 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:09:28.297
+!MESSAGE Telnet session connected on port 3330->55442 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.862
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.890
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.920
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.928
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.936
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:09:28.944
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:54.678
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:17:55.679
+!MESSAGE RedlinkServer telnet session connected on port 3025->46254 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:17:58.328
+!MESSAGE Telnet session connected on port 3330->56678 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.908
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.932
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.958
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.967
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.975
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:17:58.982
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:19:31.656
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:50.070
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:19:51.071
+!MESSAGE RedlinkServer telnet session connected on port 3025->46556 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:19:53.629
+!MESSAGE Telnet session connected on port 3330->56978 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.185
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.210
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.237
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.246
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.253
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:19:54.261
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:50.252
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:20:51.253
+!MESSAGE RedlinkServer telnet session connected on port 3025->46710 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:20:53.852
+!MESSAGE Telnet session connected on port 3330->57132 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.385
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.412
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.441
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.449
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.457
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:20:54.464
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:22:32.944
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:23:05.673
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:30.317
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:23:31.318
+!MESSAGE RedlinkServer telnet session connected on port 3025->47096 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:23:33.915
+!MESSAGE Telnet session connected on port 3330->57520 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.439
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.460
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.484
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.491
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.499
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:23:34.508
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:28.565
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:26:29.567
+!MESSAGE RedlinkServer telnet session connected on port 3025->47540 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:26:32.165
+!MESSAGE Telnet session connected on port 3330->57962 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.722
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.746
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.780
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.787
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.795
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:26:32.804
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:27.417
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:27:28.418
+!MESSAGE RedlinkServer telnet session connected on port 3025->47706 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:27:30.969
+!MESSAGE Telnet session connected on port 3330->58128 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.494
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.516
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.548
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.556
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.563
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:27:31.569
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:30:23.899
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:30:33.967
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:31:46.480
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getDelegate(DelegatingDebugTextHover.java:99)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:68)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:48.820
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:31:49.821
+!MESSAGE RedlinkServer telnet session connected on port 3025->48356 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:31:52.416
+!MESSAGE Telnet session connected on port 3330->58780 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.928
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.950
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.975
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.983
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.990
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:31:52.997
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:21.217
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:33:22.219
+!MESSAGE RedlinkServer telnet session connected on port 3025->48586 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:33:24.826
+!MESSAGE Telnet session connected on port 3330->59012 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.348
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.371
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.408
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.417
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.426
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:33:25.434
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:33:25.865
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.canEvaluate(NXPGdbDebugTextHover.java:204)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:163)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:47.573
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:39:48.575
+!MESSAGE RedlinkServer telnet session connected on port 3025->49550 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:39:51.227
+!MESSAGE Telnet session connected on port 3330->59976 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.818
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.840
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.871
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.879
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.886
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:39:51.893
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:55.439
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:41:56.440
+!MESSAGE RedlinkServer telnet session connected on port 3025->49878 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:41:58.983
+!MESSAGE Telnet session connected on port 3330->60304 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.526
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.549
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.573
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.581
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.589
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:41:59.596
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:24.439
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:44:25.440
+!MESSAGE RedlinkServer telnet session connected on port 3025->50244 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:44:28.013
+!MESSAGE Telnet session connected on port 3330->60668 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.514
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.537
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.570
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.578
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.586
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:44:28.593
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 09:46:31.391
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:04.772
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:47:05.773
+!MESSAGE RedlinkServer telnet session connected on port 3025->50652 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:47:08.324
+!MESSAGE Telnet session connected on port 3330->32844 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.891
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.912
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.936
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.943
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.950
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:47:08.958
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:35.701
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:48:36.703
+!MESSAGE RedlinkServer telnet session connected on port 3025->50876 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:48:39.263
+!MESSAGE Telnet session connected on port 3330->33068 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.759
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.782
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.805
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.812
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.819
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:48:39.827
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:09.428
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:49:10.429
+!MESSAGE RedlinkServer telnet session connected on port 3025->50968 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:49:13.057
+!MESSAGE Telnet session connected on port 3330->33160 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.612
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.635
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.666
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.674
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.681
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:49:13.688
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:52.738
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:51:53.739
+!MESSAGE RedlinkServer telnet session connected on port 3025->51416 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:51:56.285
+!MESSAGE Telnet session connected on port 3330->33610 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.778
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.799
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.877
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.878
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.878
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:51:56.878
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-08-21 09:53:23.778
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@7b910036): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-08-21 09:53:23.778
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:33.291
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:53:34.292
+!MESSAGE RedlinkServer telnet session connected on port 3025->51666 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:53:36.887
+!MESSAGE Telnet session connected on port 3330->33858 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.432
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.452
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.477
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.485
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.492
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:53:37.500
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:00.575
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 09:58:01.577
+!MESSAGE RedlinkServer telnet session connected on port 3025->52312 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 09:58:04.121
+!MESSAGE Telnet session connected on port 3330->34502 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.689
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.710
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.742
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.750
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.759
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 09:58:04.768
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-08-21 10:01:48.259
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getSelectionAdaptable(AbstractDebugTextHover.java:508)
+	at org.eclipse.cdt.dsf.debug.ui.AbstractDsfDebugTextHover.getFrame(AbstractDsfDebugTextHover.java:106)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.evaluateExpression(NXPGdbDebugTextHover.java:239)
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover.getHoverInfo(AbstractDebugTextHover.java:166)
+	at com.nxp.mcuxpresso.core.debug.ui.NXPGdbDebugTextHover.getHoverInfo2(NXPGdbDebugTextHover.java:303)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:70)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:02:47.842
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:02:48.843
+!MESSAGE RedlinkServer telnet session connected on port 3025->53050 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:12.188
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:03:13.188
+!MESSAGE RedlinkServer telnet session connected on port 3025->53110 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:03:15.864
+!MESSAGE Telnet session connected on port 3330->35304 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.434
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.456
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.491
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.500
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.507
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:03:16.516
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:46.601
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:41:47.602
+!MESSAGE RedlinkServer telnet session connected on port 3025->58810 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:41:50.187
+!MESSAGE Telnet session connected on port 3330->41002 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.706
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.727
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.750
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.758
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.765
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:41:50.773
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:29.439
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:45:30.441
+!MESSAGE RedlinkServer telnet session connected on port 3025->59372 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:45:33.023
+!MESSAGE Telnet session connected on port 3330->41564 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.569
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.592
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.621
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.629
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.636
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:45:33.644
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:38.377
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:46:39.378
+!MESSAGE RedlinkServer telnet session connected on port 3025->59550 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:46:42.012
+!MESSAGE Telnet session connected on port 3330->41746 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.537
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.558
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.582
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.590
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.598
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:46:42.607
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:24.412
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:47:25.414
+!MESSAGE RedlinkServer telnet session connected on port 3025->59670 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:47:27.958
+!MESSAGE Telnet session connected on port 3330->41860 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.495
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.517
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.541
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.549
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.557
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:47:28.565
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2021-08-21 10:48:05.089
+!MESSAGE There is already a running debug session for the launch configuration 'simpleExampleBareMetal LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:11.790
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-21 10:48:12.792
+!MESSAGE RedlinkServer telnet session connected on port 3025->59796 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-21 10:48:15.376
+!MESSAGE Telnet session connected on port 3330->41988 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.910
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.932
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.955
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.963
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.972
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-21 10:48:15.979
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0

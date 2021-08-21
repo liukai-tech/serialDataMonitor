@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="serialDataMonitor"
+run/main_scene="res://Main.tscn"
+config/icon="res://icons/icon.png"
+
+[debug]
+
+settings/stdout/print_fps=true
+settings/stdout/verbose_stdout=true
+
+[display]
+
+window/size/width=1600
+window/size/height=800
+mouse_cursor/custom_image="res://icons/pointer@1x.png"
+mouse_cursor/custom_image_hotspot=Vector2( 15, 15 )
+
+[global]
+
+timer=false
+
+[mono]
+
+debugger_agent/wait_for_debugger=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"
