@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="LastUsedSourceTemplate" value="Default C source template"/>
+	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
+	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">

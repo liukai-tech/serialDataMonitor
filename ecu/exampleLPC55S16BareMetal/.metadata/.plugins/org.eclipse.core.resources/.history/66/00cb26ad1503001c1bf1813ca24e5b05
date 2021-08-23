@@ -44,9 +44,9 @@ static const uint8_t hashmap[] = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00  // ........
 };
 
-// Meaning codes
+// Meaning characters
 typedef enum {
-// Host to ECU
+// Host command to ECU
 	// For Var field
 	reportValueOn = '?',
 	reportValueOnce = '$',
@@ -56,7 +56,7 @@ typedef enum {
 	executeCMD = '@',
 	// Other
 	// ...
-// ECU to host
+// ECU response to host
 	reportValue = ':',
 } eHostMonitoringCmd_t;
 

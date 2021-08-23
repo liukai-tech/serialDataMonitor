@@ -48,16 +48,16 @@ static const uint8_t hashmap[] = {
 typedef enum {
 // Host to ECU
 	// For Var field
-	reportValueOn = '?',
-	reportValueOnce = '$',
-	reportValueOff = '!',
-	setValue = '#',
+	reportValueOn = '?', // Host ask to report forever a variable or a variable array
+	reportValueOnce = '$', // Host ask to report a variable once
+	reportValueOff = '!', // Host ask to stop reporting a variable or a variable array
+	setValue = '#', // Host ask to set a value to a variable
 	// For Cmd field
-	executeCMD = '@',
+	executeCMD = '@', // Host ask to execute a command
 	// Other
 	// ...
 // ECU to host
-	reportValue = ':',
+	reportValue = ':', // ECU report a variable
 } eHostMonitoringCmd_t;
 
 typedef enum {

@@ -44,7 +44,7 @@ static const uint8_t hashmap[] = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00  // ........
 };
 
-// Meaning codes
+// Meaning characters
 typedef enum {
 // Host to ECU
 	// For Var field

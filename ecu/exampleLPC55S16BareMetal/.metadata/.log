@@ -1154,3 +1154,136 @@ java.lang.InterruptedException
 
 !ENTRY com.crt.log 1 0 2021-08-21 10:48:15.979
 !MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+!SESSION 2021-08-23 10:05:26.205 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_BE
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2021-08-23 10:05:56.307
+!MESSAGE waitUntilUpdated(): project.waitUntilValidated() failed
+
+!ENTRY com.nxp.swtools.utils 4 0 2021-08-23 10:05:56.315
+!MESSAGE saveConfiguration: waitUntilUpdated failed for tool: Pins
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-08-23 10:05:58.648
+!MESSAGE Connection to https://mcuxpresso.nxp.com/eclipse/sdk/2.8.2/p2.index failed on Unexpected rethrowing. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Unexpected rethrowing
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:84)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	... 23 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-08-23 10:05:58.851
+!MESSAGE An internal error occurred during: "Refresh SDK Repository...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:365)
+	at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:237)
+	at com.crt.utils.general.Reporter.log(Reporter.java:564)
+	at com.crt.utils.general.Reporter.log(Reporter.java:576)
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.datamodels.ui.jobs.RefreshSDKRepoJob.run(RefreshSDKRepoJob.java:256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-08-23 15:57:15.959 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_BE
+Command-line arguments:  -data /media/olivier/DATADISK/GAW-R/04-Projets/11-serialDataMonitor/ecu/exampleLPC55S16BareMetal -os linux -ws gtk -arch x86_64
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:47.239
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-23 15:57:47.240
+!MESSAGE RedlinkServer telnet session connected on port 3025->38130 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-23 15:57:50.085
+!MESSAGE Telnet session connected on port 3330->48556 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.696
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.758
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.795
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.804
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.812
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 15:57:50.821
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:04.245
+!MESSAGE Stream is null in [MCUXpresso Semihosting Telnet console for 'simpleExampleBareMetal LinkServer Debug' started on port 48556 @ 127.0.0.1]
+
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:25.851
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-08-23 16:24:26.853
+!MESSAGE RedlinkServer telnet session connected on port 3025->42132 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-08-23 16:24:29.551
+!MESSAGE Telnet session connected on port 3330->52556 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:29.951
+!MESSAGE ROM base address for cortexM33: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:29.993
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:30.030
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:30.039
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:30.053
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:24:30.055
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-08-23 16:40:54.196
+!MESSAGE Stream is null in [MCUXpresso Semihosting Telnet console for 'simpleExampleBareMetal LinkServer Debug' started on port 52556 @ 127.0.0.1]
+
