@@ -32,7 +32,7 @@ This project can be enhanced in several ways, ideas and contributors welcomed. A
 
 ## Credits
 
-Thanks to Godot Engine developpers who have done this excellent multiplatform development tool. 
+Thanks to Godot Engine developpers who have done this excellent multiplatform development tool
 
 ## License
 
