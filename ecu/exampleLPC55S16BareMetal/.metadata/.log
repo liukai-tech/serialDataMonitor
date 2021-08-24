@@ -1287,3 +1287,17 @@ Command-line arguments:  -data /media/olivier/DATADISK/GAW-R/04-Projets/11-seria
 !ENTRY com.crt.log 1 0 2021-08-23 16:40:54.196
 !MESSAGE Stream is null in [MCUXpresso Semihosting Telnet console for 'simpleExampleBareMetal LinkServer Debug' started on port 52556 @ 127.0.0.1]
 
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-08-24 09:33:18.965
+!MESSAGE An internal error occurred during: "Updating project code button after any change".
+!STACK 0
+java.lang.IllegalStateException: Job manager has been shut down.
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1242)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:385)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:703)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runUIJob(UIJobHelper.java:73)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runUIJob(UIJobHelper.java:56)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runNowOrInJob(UIJobHelper.java:220)
+	at com.nxp.swtools.sdkproject.updateprojectcode.UpdateCodeRefresh.runAction(UpdateCodeRefresh.java:38)
+	at com.nxp.swtools.common.utils.runtime.DelayedExecution$1.run(DelayedExecution.java:375)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

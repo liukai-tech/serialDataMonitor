@@ -56,7 +56,7 @@ public class Menu : HBoxContainer
         // Add the items
         // fileMenu.AddItem("New file", ID_NEW_FILE);
         //fileMenu.AddSeparator();
-        fileMenuElementsInst.AddItem("Open file", ID_OPEN_FILE);
+        fileMenuElementsInst.AddItem("Open .ini file", ID_OPEN_FILE);
         // fileMenu.AddItem("Open folder", ID_OPEN_FOLDER);
         fileMenuElementsInst.AddSeparator();
         // fileMenuElementsInst.AddItem("Save", ID_SAVE);
