@@ -10,7 +10,7 @@ Serial Data Monitor is a multiplatform (Windows, Linux, Mac, ...) tool to intera
 
 The **host** folder contains all the development files
 
-The **ecu** folder contains an example of a bare metal application for a microcontroler and also the .ini file for the application
+The **ecu** folder contains an examples of a bare metal application (included the .ini file) and the naked monitor.h and monitor.c files
 
 The **binaries** folder contains the application for various platforms. See the related README files
 
