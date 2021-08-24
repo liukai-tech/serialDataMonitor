@@ -28,7 +28,7 @@ Also two files (monitor.h and monitor.c) must be added and configured to the ECU
 
 ## Contributing
 
-This project can be enhanced in several ways, ideas and contributors welcomed. A good feature would be to have an Arduino (monitor.hpp and monitor.cpp)
+This project can be enhanced in several ways, ideas and contributors welcomed. A good feature would be to have an Arduino (monitor.hpp and monitor.cpp) based ECU
 
 ## Credits
 
