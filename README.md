@@ -22,7 +22,7 @@ Download the zip file for your platform, unzip on a folder of your choice and ex
 
 ## Usage/Documentation
 
-See [wiki](https://github.com/papyDoctor/serialDataMonitor/wiki).
+**See [wiki](https://github.com/papyDoctor/serialDataMonitor/wiki)**
 
 In summary, the application configure itself (GUI, behavior,...) based on informations given in  **ONE** .ini file. This .ini file is writen by the user.
 
