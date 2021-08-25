@@ -1,3 +1,5 @@
+**See [wiki](https://github.com/papyDoctor/serialDataMonitor/wiki) for full documentation**
+
 # Serial Data Monitor
 
 ![serialDataMonitor](small.gif)
