@@ -6,7 +6,7 @@
 
 ## Description
 
-Serial Data Monitor is a multiplatform (Windows, Linux, Mac, ...) tool to interactively receive/edit/monitor data and send commands to an ECU (Electronic Control Unit, can be pic, AVR, ARM, Arduino, ...) via the serial port. It is fast, real time (the embedded system is the master) and proudly made with Godot Engine. The language used is C#. This tool is already used in production but has (for sure) some bugs to discover. Also the MAC version has not been tested since I don't have a MAC, so developpers are welcome.
+Serial Data Monitor is a multiplatform (Windows, Linux, Mac, ...) tool to interactively receive/edit/monitor data and send commands to an ECU (Electronic Control Unit, can be pic, AVR, ARM, Arduino, ...) via the serial port. It is fast, real time (the embedded system is the master) and proudly made with Godot Engine. The language used is C#. This tool is already used in production but has (for sure) some bugs to discover. Also the MAC version has not been tested since I don't have a MAC, so developers are welcome.
 
 ## Table of Contents
 
